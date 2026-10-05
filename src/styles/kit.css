@@ -1,5 +1,6 @@
 /* Buttons */
 .btn {
+  text-decoration: none;
   display: inline-flex; align-items: center; justify-content: center; gap: 6px;
   height: 34px; padding: 0 14px; border-radius: var(--radius); border: 1px solid var(--line);
   background: var(--panel); color: var(--ink); font: 500 var(--fs-sm)/1 var(--sans); cursor: pointer; white-space: nowrap;
@@ -103,7 +104,7 @@
 .note p { margin: 0; }
 
 /* Forms */
-.field { display: grid; gap: 6px; }
+.field { display: grid; gap: 6px; align-content: start; }
 .field label, .label { font-size: var(--fs-sm); font-weight: 500; }
 .input, .select, .textarea {
   font: 400 var(--fs-base)/1.4 var(--sans); color: var(--ink); background: var(--panel);

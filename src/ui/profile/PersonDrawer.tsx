@@ -80,7 +80,8 @@ function Profile({ view }: { view: ProfileView }) {
       <section class="trio" aria-label="Grade, domain and skill portfolio">
         <div class="trio-cell">
           <div class="trio-k">Grade</div>
-          <div class="trio-v"><span class="serif trio-big">L{view.levelShown}</span> {LEVEL_NAMES[view.level]}{kkni && <span class="muted"> · KKNI {KKNI[view.level]}</span>}</div>
+          <div class="trio-v"><span class="serif trio-big">L{view.levelShown}</span> {LEVEL_NAMES[view.level]}</div>
+          {kkni && <div class="small muted">KKNI level {KKNI[view.level]}</div>}
           <div class="row gap-8 wrap">
             {view.confidence === "evidenced" ? <Chip tone="teal">Backed by evidence</Chip> : <Chip tone="amber">Confirm by assessment</Chip>}
             <span class="small muted">Grade and pay unchanged</span>
@@ -121,7 +122,7 @@ function Profile({ view }: { view: ProfileView }) {
                   <td>{skillName(g.skill.skill)}{!data.SKILLS[g.skill.skill] && <div class="xs t-amber">Not in taxonomy</div>}</td>
                   <td>{g.skill.prof}</td>
                   <td><Strength tier={g.tier} /></td>
-                  <td class="small">{g.skill.src}{g.skill.date && <span class="muted"> · {g.skill.date}</span>}{g.reason && <div class="xs t-rust">{g.reason}</div>}</td>
+                  <td class="small">{g.skill.src}{g.skill.date && <span class="muted when"> · {g.skill.date}</span>}{g.reason && <div class="xs t-rust">{g.reason}</div>}</td>
                 </tr>
               ))}
             </tbody>

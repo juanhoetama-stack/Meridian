@@ -19,5 +19,9 @@ export async function open(page: Page, hash = "") {
   await page.locator(".shell").waitFor();
 }
 
-export const shot = (page: Page, name: string, full = false) =>
-  page.screenshot({ path: `tests/screenshots/${name}.png`, fullPage: full });
+/** Waits for running animations so screenshots never catch a transition mid-way. */
+export async function shot(page: Page, name: string, full = false) {
+  await page.evaluate(() => Promise.all(document.getAnimations().map((a) => a.finished.catch(() => undefined))));
+  if (full) await page.evaluate(() => window.scrollTo(0, 0));
+  await page.screenshot({ path: `tests/screenshots/${name}.png`, fullPage: full });
+}

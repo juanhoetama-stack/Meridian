@@ -1,15 +1,20 @@
 .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 14px; }
-.toolbar .search { width: 280px; }
-.toolbar .select { width: auto; }
+.toolbar .search { width: 240px; }
+.toolbar .select { width: auto; max-width: 210px; }
 .db-table-wrap { overflow-x: auto; }
 .db-row { cursor: pointer; }
 .db-row:hover td { background: var(--paper); }
 .db-row:focus-visible { outline: 2px solid var(--navy); outline-offset: -2px; box-shadow: none; }
-.person-cell { display: flex; gap: 10px; align-items: center; }
+.person-cell { display: flex; gap: 10px; align-items: center; min-width: 190px; }
+.person-cell .xs { white-space: nowrap; }
 .person-name { font-weight: 600; }
-.title-cell { max-width: 260px; }
+.title-cell { max-width: 220px; }
+.title-cell .xs { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 205px; }
 .flags { display: flex; flex-wrap: wrap; gap: 4px; }
-.path-cell { max-width: 300px; font-size: var(--fs-sm); }
+.path-cell { min-width: 220px; max-width: 270px; font-size: var(--fs-sm); }
+.db-table td { padding-top: 9px; padding-bottom: 9px; }
+.db-table .evbar-track { width: 48px; }
+.skills-tbl .when { white-space: nowrap; }
 .path-go { color: var(--navy); font-weight: 500; }
 .path-quiet { color: var(--muted); }
 .path-choices { color: var(--rust); font-weight: 500; }

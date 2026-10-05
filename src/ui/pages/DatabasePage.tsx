@@ -104,12 +104,12 @@ export function DatabasePage() {
                     </td>
                     <td class="title-cell">
                       {p.title}
-                      <div class="xs muted">{v.role ? v.role.roleProfile : "No role profile yet"}</div>
+                      <div class="xs muted" title={v.role?.roleProfile}>{v.role ? v.role.roleProfile : "No role profile yet"}</div>
                     </td>
                     <td class="nowrap">{p.unit}</td>
                     <td class="nowrap num">{fmtService(p.start, AS_OF)}</td>
                     <td><EvidenceBar {...v.tiers} /></td>
-                    <td class={cx("path-cell", PATH_CLASS[v.path.kind])}>{v.path.label}</td>
+                    <td class={cx("path-cell", PATH_CLASS[v.path.kind])}><PathLabel label={v.path.label} /></td>
                     <td><div class="flags">{v.flags.map((f) => <Chip key={f} tone={FLAG_TONE[f]}>{FLAG_LABEL[f]}</Chip>)}</div></td>
                   </tr>
                 );
@@ -152,4 +152,11 @@ function exportCsv(rows: ProfileView[]) {
   a.click();
   a.remove();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+/** Keeps "· 81% fit" together on one line. */
+export function PathLabel({ label }: { label: string }) {
+  const i = label.lastIndexOf(" · ");
+  if (i < 0 || !label.endsWith("fit")) return <>{label}</>;
+  return <>{label.slice(0, i)} <span class="nowrap">· {label.slice(i + 3)}</span></>;
 }
