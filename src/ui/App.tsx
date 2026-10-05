@@ -7,6 +7,9 @@ import { PopoverHost } from "./overlays/popover";
 import { ToastHost } from "./overlays/toast";
 import { ImportPage } from "./pages/ImportPage";
 import { Placeholder } from "./pages/Placeholder";
+import { AddPage } from "./pages/AddPage";
+import { DatabasePage } from "./pages/DatabasePage";
+import { openPerson } from "../store/state";
 import { PersonDrawer } from "./profile/PersonDrawer";
 
 export const META: Record<Page, { title: string; purpose: string }> = {
@@ -22,6 +25,7 @@ export function App() {
   const route = useRoute();
   const meta = META[route.page];
 
+  useEffect(() => { const pid = route.query.get("p"); if (pid && app.ready) openPerson(pid); }, [route, app.ready]);
   useEffect(() => { document.title = `${meta.title} · Meridian`; }, [route.page]);
   useEffect(() => { document.querySelector<HTMLElement>(".main")?.scrollTo?.(0, 0); }, [route.page]);
 
@@ -34,7 +38,7 @@ export function App() {
       <main class="main" id="main" tabIndex={-1}>
         <div class="content">
           <TopBar title={meta.title} purpose={meta.purpose} />
-          {route.page === "db/import" ? <ImportPage /> : <Placeholder page={route.page} />}
+          {route.page === "db/import" ? <ImportPage /> : route.page === "db/add" ? <AddPage /> : route.page === "db/view" ? <DatabasePage /> : <Placeholder page={route.page} />}
         </div>
       </main>
       <PersonDrawer />
