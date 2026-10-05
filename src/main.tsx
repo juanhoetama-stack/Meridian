@@ -2,9 +2,14 @@ import { render } from "preact";
 import "./styles/fonts.css";
 import "./styles/tokens.css";
 import "./styles/base.css";
+import "./styles/layout.css";
+import "./styles/kit.css";
+import "./styles/overlays.css";
+import "./styles/pages/import.css";
+import { App } from "./ui/App";
+import { init } from "./store/state";
+import { installProvHandler } from "./ui/overlays/popover";
 
-function App() {
-  return <main style={{ padding: "48px" }}><h1 class="serif">Meridian</h1><p>Scaffold ready.</p></main>;
-}
-
+installProvHandler();
 render(<App />, document.getElementById("app")!);
+init();

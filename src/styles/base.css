@@ -4,7 +4,6 @@ body {
   background: var(--paper);
   color: var(--ink);
   font: 400 var(--fs-base)/1.5 var(--sans);
-  font-variant-numeric: tabular-nums;
   -webkit-font-smoothing: antialiased;
 }
 h1, h2, h3, h4 { margin: 0; font-weight: 600; }

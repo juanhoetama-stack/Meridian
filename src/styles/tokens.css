@@ -11,6 +11,7 @@
   --teal: #0F766E;  --teal-t: #E4F2F0;
   --rust: #B4441B;  --rust-t: #F8ECE6;
   --amber: #B7791F; --amber-t: #F7EEDC;
+  --amber-ink: #83560E; /* amber text on tints, for AA contrast */
 
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
