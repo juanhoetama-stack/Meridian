@@ -118,7 +118,7 @@ export function AddPage() {
   );
   const inp = (k: keyof Form & string, type: "text" | "date" = "text", extra: Record<string, unknown> = {}) => (
     <input
-      id={`f-${k}`} type={type} class={cx("input", show(k) && "is-invalid")} value={f[k] as string}
+      id={`f-${k}`} type={type as "text"} class={cx("input", show(k) && "is-invalid")} value={f[k] as string}
       aria-invalid={show(k) ? "true" : undefined} aria-describedby={show(k) ? `e-${k}` : undefined}
       onInput={(e) => set(k, (e.target as HTMLInputElement).value as never)} onBlur={blur(k)} {...extra}
     />
