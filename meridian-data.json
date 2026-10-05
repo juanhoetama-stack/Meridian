@@ -1,0 +1,3074 @@
+{
+ "UNITS": [
+  {
+   "id": "RU-1",
+   "name": "Java West (urban)",
+   "wave": 1,
+   "win": "M0–M9",
+   "hc": 1350
+  },
+  {
+   "id": "RU-2",
+   "name": "Java Central & East",
+   "wave": 1,
+   "win": "M0–M9",
+   "hc": 1500
+  },
+  {
+   "id": "RU-3",
+   "name": "Sumatra",
+   "wave": 2,
+   "win": "M6–M15",
+   "hc": 1150
+  },
+  {
+   "id": "RU-4",
+   "name": "Kalimantan",
+   "wave": 3,
+   "win": "M12–M18",
+   "hc": 650
+  },
+  {
+   "id": "RU-5",
+   "name": "Sulawesi",
+   "wave": 2,
+   "win": "M6–M15",
+   "hc": 700
+  },
+  {
+   "id": "RU-6",
+   "name": "Bali, Nusa Tenggara & East",
+   "wave": 3,
+   "win": "M12–M18",
+   "hc": 650
+  },
+  {
+   "id": "HO",
+   "name": "Head office",
+   "wave": 0,
+   "win": "",
+   "hc": 0
+  }
+ ],
+ "EDU_LEVELS": [
+  "SMA",
+  "SMK",
+  "D3",
+  "D4",
+  "S1",
+  "S2",
+  "S3"
+ ],
+ "PROF": [
+  "Foundation",
+  "Working",
+  "Advanced",
+  "Expert"
+ ],
+ "SOURCES": {
+  "SKTTK certificate": "V",
+  "BNSP certificate": "V",
+  "Assessor check": "V",
+  "Work orders (20 or more)": "V",
+  "LMS course passed (2023+)": "S",
+  "Performance rating 2023+": "S",
+  "Supervisor attestation": "S",
+  "Self-declared": "I",
+  "Role prior": "I",
+  "Tenure": "I"
+ },
+ "TIER_W": {
+  "V": 1,
+  "S": 0.7,
+  "I": 0.4
+ },
+ "SKILLS": {
+  "k3_lv": {
+   "n": "LV electrical safety (K3)",
+   "wk": 4
+  },
+  "meter_install": {
+   "n": "Meter installation and wiring",
+   "wk": 6
+  },
+  "tamper": {
+   "n": "Tamper and irregularity detection",
+   "wk": 4
+  },
+  "customer": {
+   "n": "Customer interaction and de-escalation",
+   "wk": 3
+  },
+  "handheld": {
+   "n": "Handheld field apps",
+   "wk": 2
+  },
+  "anomaly_data": {
+   "n": "Anomaly data interpretation",
+   "wk": 4
+  },
+  "ami_comms": {
+   "n": "AMI comms fault diagnosis",
+   "wk": 10
+  },
+  "head_end": {
+   "n": "Head-end / MDM tools",
+   "wk": 4
+  },
+  "investigation": {
+   "n": "Loss investigation procedure (P2TL)",
+   "wk": 6
+  },
+  "alert_triage": {
+   "n": "Alert triage",
+   "wk": 6
+  },
+  "lv_maint": {
+   "n": "LV network maintenance",
+   "wk": 8
+  },
+  "height": {
+   "n": "Working at height",
+   "wk": 4
+  },
+  "switching": {
+   "n": "Network switching",
+   "wk": 6
+  },
+  "connections": {
+   "n": "New connection installation",
+   "wk": 6
+  },
+  "ev_solar": {
+   "n": "EV charger and rooftop solar inspection",
+   "wk": 4
+  },
+  "gis": {
+   "n": "GIS asset tagging",
+   "wk": 8
+  },
+  "data_quality": {
+   "n": "Field data quality",
+   "wk": 6
+  },
+  "mv_maint": {
+   "n": "MV network maintenance",
+   "wk": 10
+  },
+  "scada": {
+   "n": "SCADA operation",
+   "wk": 8
+  },
+  "protection": {
+   "n": "Protection relay testing",
+   "wk": 10
+  },
+  "substation": {
+   "n": "Substation O&M",
+   "wk": 10
+  },
+  "plant_ops": {
+   "n": "Plant operation (boiler and turbine)",
+   "wk": 12
+  },
+  "mech_maint": {
+   "n": "Mechanical maintenance",
+   "wk": 10
+  },
+  "ci": {
+   "n": "Control and instrumentation",
+   "wk": 10
+  },
+  "billing": {
+   "n": "Billing operations",
+   "wk": 4
+  },
+  "contact": {
+   "n": "Contact-centre service",
+   "wk": 3
+  },
+  "project_mgmt": {
+   "n": "Project management",
+   "wk": 8
+  },
+  "design_eng": {
+   "n": "Design engineering",
+   "wk": 12
+  },
+  "accounting": {
+   "n": "Accounting",
+   "wk": 8
+  },
+  "procurement": {
+   "n": "Procurement",
+   "wk": 6
+  },
+  "inventory": {
+   "n": "Inventory and warehouse",
+   "wk": 4
+  },
+  "records": {
+   "n": "Records and administration",
+   "wk": 3
+  },
+  "hr_ops": {
+   "n": "HR operations",
+   "wk": 4
+  },
+  "ir": {
+   "n": "Industrial relations",
+   "wk": 8
+  },
+  "it_ops": {
+   "n": "IT operations",
+   "wk": 8
+  },
+  "analytics": {
+   "n": "Data analytics",
+   "wk": 10
+  },
+  "cyber": {
+   "n": "OT cybersecurity",
+   "wk": 12
+  },
+  "hse": {
+   "n": "Safety management system (K3)",
+   "wk": 6
+  },
+  "env": {
+   "n": "Environmental compliance",
+   "wk": 6
+  },
+  "planning": {
+   "n": "Corporate planning",
+   "wk": 8
+  },
+  "regulatory": {
+   "n": "Regulatory and tariff",
+   "wk": 8
+  },
+  "crew_lead": {
+   "n": "Crew leadership",
+   "wk": 6
+  }
+ },
+ "FAMILIES": [
+  {
+   "id": "F01",
+   "name": "Field Metering & Manual Ops",
+   "headcount": 6000,
+   "automatable": 0.7,
+   "certainty": "High",
+   "driver": "Smart meters / AMI, IoT, AI-assisted ops (procurement under way)",
+   "exposedFTE": 4200,
+   "subFamilies": [
+    {
+     "name": "Meter & Customer Field Ops",
+     "bands": [
+      "B0",
+      "B1",
+      "B5"
+     ]
+    },
+    {
+     "name": "AMI Field Operations",
+     "bands": [
+      "B2"
+     ]
+    },
+    {
+     "name": "Revenue Protection",
+     "bands": [
+      "B3"
+     ]
+    },
+    {
+     "name": "Field Data & GIS",
+     "bands": [
+      "B6"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "F02",
+   "name": "Distribution Network O&M",
+   "headcount": 10600,
+   "automatable": 0.12,
+   "certainty": "Medium",
+   "driver": "Drones, predictive maintenance, AI dispatch",
+   "exposedFTE": 1272,
+   "subFamilies": [
+    {
+     "name": "LV/MV Network Maintenance",
+     "bands": [
+      "B4",
+      "D2"
+     ]
+    },
+    {
+     "name": "Distribution Operations & Control",
+     "bands": [
+      "D3"
+     ]
+    },
+    {
+     "name": "Network Planning & Connections",
+     "bands": []
+    }
+   ]
+  },
+  {
+   "id": "F03",
+   "name": "Generation O&M",
+   "headcount": 7600,
+   "automatable": 0.14,
+   "certainty": "Medium",
+   "driver": "Remote monitoring, predictive maintenance",
+   "exposedFTE": 1064,
+   "subFamilies": [
+    {
+     "name": "Plant Operations",
+     "bands": [
+      "G1"
+     ]
+    },
+    {
+     "name": "Mechanical / Electrical Maintenance",
+     "bands": [
+      "G2"
+     ]
+    },
+    {
+     "name": "Control & Instrumentation",
+     "bands": [
+      "G3"
+     ]
+    },
+    {
+     "name": "Plant Performance",
+     "bands": []
+    }
+   ]
+  },
+  {
+   "id": "F04",
+   "name": "Transmission & Substation",
+   "headcount": 4400,
+   "automatable": 0.15,
+   "certainty": "Medium",
+   "driver": "Digital substations, remote operation",
+   "exposedFTE": 660,
+   "subFamilies": [
+    {
+     "name": "Substation O&M",
+     "bands": [
+      "T1"
+     ]
+    },
+    {
+     "name": "Transmission Line Maintenance",
+     "bands": []
+    },
+    {
+     "name": "Protection & SCADA",
+     "bands": [
+      "T2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "F05",
+   "name": "Customer Service & Commercial",
+   "headcount": 5800,
+   "automatable": 0.35,
+   "certainty": "Medium",
+   "driver": "Gen-AI contact centre, self-service, auto-billing",
+   "exposedFTE": 2030,
+   "subFamilies": [
+    {
+     "name": "Contact Centre & Digital Service",
+     "bands": [
+      "C1"
+     ]
+    },
+    {
+     "name": "Billing & Collections",
+     "bands": [
+      "C2"
+     ]
+    },
+    {
+     "name": "Key Account & Energy Services",
+     "bands": []
+    }
+   ]
+  },
+  {
+   "id": "F06",
+   "name": "Engineering & Project Delivery",
+   "headcount": 4100,
+   "automatable": 0.12,
+   "certainty": "Low",
+   "driver": "Gen-AI design and documentation",
+   "exposedFTE": 492,
+   "subFamilies": [
+    {
+     "name": "Project Management",
+     "bands": [
+      "E1"
+     ]
+    },
+    {
+     "name": "Design Engineering",
+     "bands": [
+      "E2"
+     ]
+    },
+    {
+     "name": "Construction Supervision",
+     "bands": []
+    }
+   ]
+  },
+  {
+   "id": "F07",
+   "name": "Finance, Procurement & Supply Chain",
+   "headcount": 3600,
+   "automatable": 0.28,
+   "certainty": "Medium",
+   "driver": "AP/AR automation, Gen-AI analysis",
+   "exposedFTE": 1008,
+   "subFamilies": [
+    {
+     "name": "Finance & Accounting",
+     "bands": [
+      "P1"
+     ]
+    },
+    {
+     "name": "Procurement",
+     "bands": [
+      "P2"
+     ]
+    },
+    {
+     "name": "Inventory & Logistics",
+     "bands": []
+    },
+    {
+     "name": "Risk & Treasury",
+     "bands": []
+    }
+   ]
+  },
+  {
+   "id": "F08",
+   "name": "Corporate Admin & General Affairs",
+   "headcount": 4400,
+   "automatable": 0.32,
+   "certainty": "Medium",
+   "driver": "Document AI, RPA, e-office",
+   "exposedFTE": 1408,
+   "subFamilies": [
+    {
+     "name": "Administration & Records",
+     "bands": [
+      "A1"
+     ]
+    },
+    {
+     "name": "Facilities",
+     "bands": []
+    },
+    {
+     "name": "Legal & Corporate Secretary",
+     "bands": []
+    }
+   ]
+  },
+  {
+   "id": "F09",
+   "name": "HR & Organization",
+   "headcount": 1500,
+   "automatable": 0.22,
+   "certainty": "Low",
+   "driver": "HR service automation, Gen-AI",
+   "exposedFTE": 330,
+   "subFamilies": [
+    {
+     "name": "HR Operations",
+     "bands": [
+      "H1"
+     ]
+    },
+    {
+     "name": "Talent & Capability",
+     "bands": []
+    },
+    {
+     "name": "Industrial Relations",
+     "bands": []
+    }
+   ]
+  },
+  {
+   "id": "F10",
+   "name": "IT, OT & Digital",
+   "headcount": 1700,
+   "automatable": 0.2,
+   "certainty": "Low",
+   "driver": "AI coding and operations copilots",
+   "exposedFTE": 340,
+   "subFamilies": [
+    {
+     "name": "IT Infrastructure",
+     "bands": []
+    },
+    {
+     "name": "OT & Cybersecurity",
+     "bands": []
+    },
+    {
+     "name": "Data & Analytics",
+     "bands": [
+      "I1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "F11",
+   "name": "HSE, Quality & Compliance",
+   "headcount": 1400,
+   "automatable": 0.1,
+   "certainty": "Low",
+   "driver": "Computer-vision safety monitoring",
+   "exposedFTE": 140,
+   "subFamilies": [
+    {
+     "name": "K3 / Safety",
+     "bands": [
+      "S1"
+     ]
+    },
+    {
+     "name": "Environment",
+     "bands": []
+    },
+    {
+     "name": "Quality & Regulatory Compliance",
+     "bands": []
+    }
+   ]
+  },
+  {
+   "id": "F12",
+   "name": "Planning, Strategy & Regulatory",
+   "headcount": 900,
+   "automatable": 0.15,
+   "certainty": "Low",
+   "driver": "Gen-AI analysis and drafting",
+   "exposedFTE": 135,
+   "subFamilies": [
+    {
+     "name": "Corporate Planning",
+     "bands": [
+      "R1"
+     ]
+    },
+    {
+     "name": "Regulatory & Tariff",
+     "bands": []
+    }
+   ]
+  }
+ ],
+ "BANDS": {
+  "B0": {
+   "n": "Meter & Customer Field Ops (current, route-based)",
+   "fam": "F01",
+   "lv": "L1–L3",
+   "note": "Becomes exception-based; ~30% of today's work remains"
+  },
+  "B1": {
+   "n": "Smart-Meter Deployment & Commissioning",
+   "fam": "F01",
+   "lv": "L2–L3",
+   "bridge": true,
+   "pop": 1200,
+   "ev": "i",
+   "wks": "4–6 wks"
+  },
+  "B2": {
+   "n": "AMI Field Operations & Maintenance",
+   "fam": "F01",
+   "lv": "L2–L4",
+   "pop": 900,
+   "ev": "a",
+   "req": {
+    "k3_lv": [
+     "Working",
+     6
+    ],
+    "meter_install": [
+     "Working",
+     5
+    ],
+    "customer": [
+     "Working",
+     1
+    ],
+    "handheld": [
+     "Working",
+     1
+    ],
+    "ami_comms": [
+     "Working",
+     3
+    ]
+   },
+   "crit": [
+    [
+     "ami_comms",
+     "Working"
+    ]
+   ]
+  },
+  "B3": {
+   "n": "Revenue Protection & Loss Investigation",
+   "fam": "F01",
+   "lv": "L2–L4",
+   "pop": 700,
+   "ev": "i",
+   "req": {
+    "k3_lv": [
+     "Working",
+     5
+    ],
+    "meter_install": [
+     "Working",
+     5
+    ],
+    "tamper": [
+     "Working",
+     2
+    ],
+    "customer": [
+     "Working",
+     1
+    ],
+    "investigation": [
+     "Working",
+     1
+    ],
+    "alert_triage": [
+     "Working",
+     1
+    ]
+   },
+   "crit": [
+    [
+     "tamper",
+     "Advanced"
+    ]
+   ]
+  },
+  "B4": {
+   "n": "LV Distribution Network Maintenance",
+   "fam": "F02",
+   "lv": "L2–L4",
+   "pop": 800,
+   "ev": "m",
+   "req": {
+    "k3_lv": [
+     "Working",
+     6
+    ],
+    "meter_install": [
+     "Working",
+     3
+    ],
+    "lv_maint": [
+     "Working",
+     1.5
+    ],
+    "height": [
+     "Working",
+     2.5
+    ],
+    "switching": [
+     "Working",
+     2.5
+    ]
+   },
+   "crit": [
+    [
+     "height",
+     "Working"
+    ],
+    [
+     "switching",
+     "Working"
+    ]
+   ]
+  },
+  "B5": {
+   "n": "Customer Field Service & Energy Services",
+   "fam": "F01",
+   "lv": "L2–L3",
+   "pop": 500,
+   "ev": "a",
+   "req": {
+    "k3_lv": [
+     "Working",
+     4
+    ],
+    "connections": [
+     "Working",
+     3
+    ],
+    "customer": [
+     "Working",
+     2
+    ],
+    "ev_solar": [
+     "Working",
+     2
+    ],
+    "meter_install": [
+     "Working",
+     2
+    ]
+   },
+   "crit": [
+    [
+     "connections",
+     "Working"
+    ]
+   ]
+  },
+  "B6": {
+   "n": "Grid Asset Data & GIS Stewardship",
+   "fam": "F01",
+   "lv": "L2–L4",
+   "pop": 250,
+   "ev": "i",
+   "req": {
+    "gis": [
+     "Working",
+     3
+    ],
+    "data_quality": [
+     "Working",
+     3
+    ],
+    "handheld": [
+     "Working",
+     2
+    ],
+    "anomaly_data": [
+     "Working",
+     2
+    ]
+   },
+   "crit": [
+    [
+     "gis",
+     "Working"
+    ]
+   ]
+  },
+  "D2": {
+   "n": "MV Network Maintenance",
+   "fam": "F02",
+   "lv": "L2–L5"
+  },
+  "D3": {
+   "n": "Distribution Control",
+   "fam": "F02",
+   "lv": "L2–L5"
+  },
+  "G1": {
+   "n": "Plant Operations",
+   "fam": "F03",
+   "lv": "L1–L5"
+  },
+  "G2": {
+   "n": "Mechanical Maintenance",
+   "fam": "F03",
+   "lv": "L1–L4"
+  },
+  "G3": {
+   "n": "Control & Instrumentation",
+   "fam": "F03",
+   "lv": "L2–L5"
+  },
+  "T1": {
+   "n": "Substation O&M",
+   "fam": "F04",
+   "lv": "L2–L4"
+  },
+  "T2": {
+   "n": "Protection & SCADA",
+   "fam": "F04",
+   "lv": "L3–L5"
+  },
+  "C1": {
+   "n": "Contact Centre & Digital Service",
+   "fam": "F05",
+   "lv": "L1–L4"
+  },
+  "C2": {
+   "n": "Billing & Collections",
+   "fam": "F05",
+   "lv": "L1–L4"
+  },
+  "E1": {
+   "n": "Project Management",
+   "fam": "F06",
+   "lv": "L3–L6"
+  },
+  "E2": {
+   "n": "Design Engineering",
+   "fam": "F06",
+   "lv": "L3–L5"
+  },
+  "P1": {
+   "n": "Finance & Accounting",
+   "fam": "F07",
+   "lv": "L2–L6"
+  },
+  "P2": {
+   "n": "Procurement & Inventory",
+   "fam": "F07",
+   "lv": "L2–L5"
+  },
+  "A1": {
+   "n": "Administration & Records",
+   "fam": "F08",
+   "lv": "L1–L4"
+  },
+  "H1": {
+   "n": "HR Operations & Industrial Relations",
+   "fam": "F09",
+   "lv": "L2–L6"
+  },
+  "I1": {
+   "n": "IT & Data",
+   "fam": "F10",
+   "lv": "L2–L6"
+  },
+  "S1": {
+   "n": "Safety & Environment",
+   "fam": "F11",
+   "lv": "L2–L5"
+  },
+  "R1": {
+   "n": "Planning & Regulatory",
+   "fam": "F12",
+   "lv": "L3–L6"
+  }
+ },
+ "DEST": [
+  "B2",
+  "B3",
+  "B4",
+  "B5",
+  "B6"
+ ],
+ "ROLE_RULES": [
+  {
+   "pattern": "catat meter|baca meter|meter reader|pelayanan teknik|yantek|pemeliharaan meter",
+   "flags": "i",
+   "roleProfile": "Meter & Customer Field Technician",
+   "family": "F01",
+   "subFamily": "Meter & Customer Field Ops",
+   "band": "B0"
+  },
+  {
+   "pattern": "p2tl|penertiban",
+   "flags": "i",
+   "roleProfile": "Revenue Protection Officer",
+   "family": "F01",
+   "subFamily": "Revenue Protection",
+   "band": "B3"
+  },
+  {
+   "pattern": "jtm|tegangan menengah",
+   "flags": "i",
+   "roleProfile": "Distribution Network Technician (MV)",
+   "family": "F02",
+   "subFamily": "LV/MV Network Maintenance",
+   "band": "D2"
+  },
+  {
+   "pattern": "jaringan|distribusi|jtr|lineman",
+   "flags": "i",
+   "roleProfile": "Distribution Network Engineer / Technician",
+   "family": "F02",
+   "subFamily": "LV/MV Network Maintenance",
+   "band": "B4"
+  },
+  {
+   "pattern": "instrumen|kontrol|c&i",
+   "flags": "i",
+   "roleProfile": "Control & Instrumentation Specialist",
+   "family": "F03",
+   "subFamily": "Control & Instrumentation",
+   "band": "G3"
+  },
+  {
+   "pattern": "mekanik",
+   "flags": "i",
+   "roleProfile": "Plant Mechanical Technician",
+   "family": "F03",
+   "subFamily": "Mechanical / Electrical Maintenance",
+   "band": "G2"
+  },
+  {
+   "pattern": "pembangkit|pltu|pltg|pltd|turbin|boiler",
+   "flags": "i",
+   "roleProfile": "Plant Operator",
+   "family": "F03",
+   "subFamily": "Plant Operations",
+   "band": "G1"
+  },
+  {
+   "pattern": "proteksi|scada",
+   "flags": "i",
+   "roleProfile": "Protection & SCADA Engineer",
+   "family": "F04",
+   "subFamily": "Protection & SCADA",
+   "band": "T2"
+  },
+  {
+   "pattern": "gardu induk|transmisi",
+   "flags": "i",
+   "roleProfile": "Substation Operator",
+   "family": "F04",
+   "subFamily": "Substation O&M",
+   "band": "T1"
+  },
+  {
+   "pattern": "billing|tagihan|penagihan",
+   "flags": "i",
+   "roleProfile": "Billing & Collections Officer",
+   "family": "F05",
+   "subFamily": "Billing & Collections",
+   "band": "C2"
+  },
+  {
+   "pattern": "pelanggan|call center|contact center|layanan",
+   "flags": "i",
+   "roleProfile": "Customer Service Officer",
+   "family": "F05",
+   "subFamily": "Contact Centre & Digital Service",
+   "band": "C1"
+  },
+  {
+   "pattern": "proyek|konstruksi|perencanaan teknik",
+   "flags": "i",
+   "roleProfile": "Project Engineer",
+   "family": "F06",
+   "subFamily": "Project Management",
+   "band": "E1"
+  },
+  {
+   "pattern": "keuangan|akuntansi|anggaran",
+   "flags": "i",
+   "roleProfile": "Finance Analyst",
+   "family": "F07",
+   "subFamily": "Finance & Accounting",
+   "band": "P1"
+  },
+  {
+   "pattern": "pengadaan|gudang|logistik",
+   "flags": "i",
+   "roleProfile": "Procurement Officer",
+   "family": "F07",
+   "subFamily": "Procurement",
+   "band": "P2"
+  },
+  {
+   "pattern": "sdm|human capital|hubungan industrial|personalia",
+   "flags": "i",
+   "roleProfile": "HR Specialist",
+   "family": "F09",
+   "subFamily": "HR Operations",
+   "band": "H1"
+  },
+  {
+   "pattern": "sistem informasi|teknologi informasi|\\bit\\b|data",
+   "flags": "i",
+   "roleProfile": "Data & Information Systems Analyst",
+   "family": "F10",
+   "subFamily": "Data & Analytics",
+   "band": "I1"
+  },
+  {
+   "pattern": "k3|lingkungan|hse|keselamatan",
+   "flags": "i",
+   "roleProfile": "HSE Coordinator",
+   "family": "F11",
+   "subFamily": "K3 / Safety",
+   "band": "S1"
+  },
+  {
+   "pattern": "perencanaan korporat|strategi|regulasi|tarif",
+   "flags": "i",
+   "roleProfile": "Planning & Regulatory Analyst",
+   "family": "F12",
+   "subFamily": "Corporate Planning",
+   "band": "R1"
+  },
+  {
+   "pattern": "administrasi|umum|sekretaris|arsip",
+   "flags": "i",
+   "roleProfile": "Administration Officer",
+   "family": "F08",
+   "subFamily": "Administration & Records",
+   "band": "A1"
+  }
+ ],
+ "LEVEL_RULES": [
+  {
+   "pattern": "general manager|senior manager|kepala divisi|\\bvp\\b",
+   "level": 6,
+   "reason": "title names a division-level role"
+  },
+  {
+   "pattern": "asisten manajer|assistant manager|madya|senior technician ii|analis senior|engineer senior",
+   "level": 4,
+   "reason": "title carries a senior-specialist marker (Madya, Senior II, Asisten Manajer)"
+  },
+  {
+   "pattern": "manajer|manager",
+   "level": 5,
+   "reason": "title names a department manager"
+  },
+  {
+   "pattern": "supervisor|\\bspv\\b|koordinator|kepala regu|mandor|engineer|analis",
+   "level": 3,
+   "reason": "title names a crew lead, specialist or engineer"
+  }
+ ],
+ "POP": {
+  "total": 52000,
+  "exposed": 13079,
+  "meterHc": 6000,
+  "displaced": 4200,
+  "retained": 1800,
+  "natural": 650,
+  "placed": 3235,
+  "other": 85,
+  "vol": 215,
+  "pool": 100,
+  "high": 1900,
+  "med": 1100,
+  "low": 550,
+  "perm": 3150,
+  "invest": "Rp 206B",
+  "doNothing": "Rp 1.04T",
+  "net": "Rp 833B",
+  "layoff": "Rp 1.22T",
+  "roi": "4.0x",
+  "bep": 724,
+  "bef": 13,
+  "steady": "Rp 567B",
+  "stranded": "Rp 63B",
+  "delay": "Rp 639B"
+ },
+ "PROV": {
+  "displaced": {
+   "t": "4,200 roles' worth of work",
+   "ev": "i",
+   "rests": "Brief: Field Metering ~6,000 people, ~70% automatable within 18 months.",
+   "how": "6,000 x 70% = 4,200"
+  },
+  "exposed": {
+   "t": "13,079 FTE exposed",
+   "ev": "i",
+   "rests": "Day-30 exposure model: task-based automatability per job family, adjusted for what the Client has procured (A18).",
+   "how": "Sum over 12 families of headcount x automatable share"
+  },
+  "natural": {
+   "t": "650 retire on schedule",
+   "ev": "m",
+   "rests": "HRIS date of birth; retirement age 56 per PKB (A12, A13).",
+   "how": "Metering staff reaching 56 within 24 months"
+  },
+  "placed": {
+   "t": "3,235 redeployed",
+   "ev": "a",
+   "rests": "Pathway success 90 / 80 / 60% by adjacency, second offer converts half the rest (A10); adjacency segments 1,900 / 1,100 / 550 (A20).",
+   "how": "1,710 + 880 + 330 first offers + 315 second offers"
+  },
+  "vol": {
+   "t": "215 voluntary exits",
+   "ev": "a",
+   "rests": "Opt-in only: 120 enhanced early retirement, 95 supported external moves (A5).",
+   "how": "Remainder after second offers, split by choice"
+  },
+  "pool": {
+   "t": "100 protected",
+   "ev": "a",
+   "rests": "People with no viable path after two offers keep grade, pay and productive work.",
+   "how": "3,550 − 3,235 − 215"
+  },
+  "retained": {
+   "t": "1,800 stay",
+   "ev": "i",
+   "rests": "~30% of Field Metering work remains after automation (brief).",
+   "how": "6,000 x 30%"
+  },
+  "other": {
+   "t": "85 into other families",
+   "ev": "a",
+   "rests": "Internal-first rule on ~1,300 enterprise vacancies a year (A17).",
+   "how": "3,235 placed − 3,150 permanent band roles"
+  },
+  "invest": {
+   "t": "Rp 206B programme",
+   "ev": "a",
+   "rests": "Reskilling, voluntary packages, assessments, programme, technology, Rakamin fee (A2-A9).",
+   "how": "See deck appendix A"
+  },
+  "doNothing": {
+   "t": "Rp 1.04T do-nothing",
+   "ev": "a",
+   "rests": "3,150 roles hired externally over 18 months at Rp 180M per FTE (A1, round planning assumption, not Client data).",
+   "how": "Hiring + salaries + ramp-up over 24 months"
+  }
+ },
+ "SEED": [
+  {
+   "name": "Suparman",
+   "placeOfBirth": "Klaten",
+   "dateOfBirth": "1970-04-11",
+   "eduLevel": "SMA",
+   "eduMajor": "",
+   "jobTitle": "Juru Baca Meter Senior",
+   "unit": "RU-2",
+   "startDate": "1993-02-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Working",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Working",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2021-0441",
+     "validUntil": "2026-12-31"
+    }
+   ]
+  },
+  {
+   "name": "Rusdi Hasibuan",
+   "placeOfBirth": "Pematangsiantar",
+   "dateOfBirth": "1971-09-02",
+   "eduLevel": "SMK",
+   "eduMajor": "Listrik",
+   "jobTitle": "Petugas Catat Meter",
+   "unit": "RU-3",
+   "startDate": "1992-08-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Working",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Advanced",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2020-1187",
+     "validUntil": "2027-03-31"
+    }
+   ]
+  },
+  {
+   "name": "I Wayan Sudarsa",
+   "placeOfBirth": "Gianyar",
+   "dateOfBirth": "1972-01-15",
+   "eduLevel": "SMK",
+   "eduMajor": "Listrik",
+   "jobTitle": "Petugas Pelayanan Teknik",
+   "unit": "RU-6",
+   "startDate": "1995-05-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Advanced",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "New connection installation",
+     "prof": "Working",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Advanced",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2022-0093",
+     "validUntil": "2027-08-31"
+    }
+   ]
+  },
+  {
+   "name": "Bambang Hermanto",
+   "placeOfBirth": "Bekasi",
+   "dateOfBirth": "1978-06-20",
+   "eduLevel": "D3",
+   "eduMajor": "Teknik Elektro",
+   "jobTitle": "Supervisor Catat Meter",
+   "unit": "RU-1",
+   "startDate": "2002-03-01",
+   "skills": [
+    {
+     "skill": "Crew leadership",
+     "prof": "Advanced",
+     "src": "Assessor check",
+     "date": "2025-06"
+    },
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Advanced",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Advanced",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Tamper and irregularity detection",
+     "prof": "Advanced",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2023-2210",
+     "validUntil": "2028-05-31"
+    }
+   ]
+  },
+  {
+   "name": "Dewi Lestari",
+   "placeOfBirth": "Semarang",
+   "dateOfBirth": "1983-11-03",
+   "eduLevel": "S1",
+   "eduMajor": "Teknik Elektro",
+   "jobTitle": "Koordinator Pelayanan Teknik",
+   "unit": "RU-2",
+   "startDate": "2007-09-01",
+   "skills": [
+    {
+     "skill": "Crew leadership",
+     "prof": "Advanced",
+     "src": "Supervisor attestation",
+     "date": "2025-06"
+    },
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Advanced",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Advanced",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    },
+    {
+     "skill": "New connection installation",
+     "prof": "Advanced",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2024-0318",
+     "validUntil": "2029-02-28"
+    }
+   ]
+  },
+  {
+   "name": "Andi Pratama Siregar",
+   "placeOfBirth": "Medan",
+   "dateOfBirth": "1980-02-27",
+   "eduLevel": "D3",
+   "eduMajor": "Teknik Listrik",
+   "jobTitle": "Kepala Regu Yantek",
+   "unit": "RU-3",
+   "startDate": "2004-01-01",
+   "skills": [
+    {
+     "skill": "Crew leadership",
+     "prof": "Advanced",
+     "src": "Assessor check",
+     "date": "2025-06"
+    },
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Advanced",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Advanced",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2023-1544",
+     "validUntil": "2028-09-30"
+    }
+   ]
+  },
+  {
+   "name": "Muhammad Rizal",
+   "placeOfBirth": "Makassar",
+   "dateOfBirth": "1981-07-14",
+   "eduLevel": "S1",
+   "eduMajor": "Teknik Elektro",
+   "jobTitle": "Supervisor Catat Meter",
+   "unit": "RU-5",
+   "startDate": "2006-04-01",
+   "skills": [
+    {
+     "skill": "Crew leadership",
+     "prof": "Advanced",
+     "src": "Supervisor attestation",
+     "date": "2025-06"
+    },
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Advanced",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Tamper and irregularity detection",
+     "prof": "Working",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2022-0877",
+     "validUntil": "2027-10-31"
+    }
+   ]
+  },
+  {
+   "name": "Agus Setiawan",
+   "placeOfBirth": "Boyolali",
+   "dateOfBirth": "1979-03-12",
+   "eduLevel": "SMK",
+   "eduMajor": "Listrik",
+   "jobTitle": "Petugas Catat Meter Senior",
+   "unit": "RU-2",
+   "startDate": "2004-07-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Advanced",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Advanced",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Tamper and irregularity detection",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2024-09"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Handheld field apps",
+     "prof": "Working",
+     "src": "Role prior",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Anomaly data interpretation",
+     "prof": "Foundation",
+     "src": "Self-declared",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2022-1903",
+     "validUntil": "2027-11-30"
+    }
+   ]
+  },
+  {
+   "name": "Eko Prasetyo",
+   "placeOfBirth": "Bandung",
+   "dateOfBirth": "1986-05-09",
+   "eduLevel": "SMK",
+   "eduMajor": "Listrik",
+   "jobTitle": "Petugas Catat Meter",
+   "unit": "RU-1",
+   "startDate": "2010-02-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Advanced",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Advanced",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Tamper and irregularity detection",
+     "prof": "Advanced",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Loss investigation procedure (P2TL)",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2023-0412",
+     "validUntil": "2028-01-31"
+    }
+   ]
+  },
+  {
+   "name": "Siti Rahmawati",
+   "placeOfBirth": "Depok",
+   "dateOfBirth": "1990-08-21",
+   "eduLevel": "D3",
+   "eduMajor": "Teknik Elektro",
+   "jobTitle": "Petugas Pelayanan Teknik",
+   "unit": "RU-1",
+   "startDate": "2013-06-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Working",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Working",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "New connection installation",
+     "prof": "Working",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Advanced",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    },
+    {
+     "skill": "EV charger and rooftop solar inspection",
+     "prof": "Foundation",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2024-0677",
+     "validUntil": "2029-04-30"
+    }
+   ]
+  },
+  {
+   "name": "Yohanes Manurung",
+   "placeOfBirth": "Tarutung",
+   "dateOfBirth": "1984-12-01",
+   "eduLevel": "SMK",
+   "eduMajor": "Listrik",
+   "jobTitle": "Petugas Catat Meter",
+   "unit": "RU-3",
+   "startDate": "2008-03-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Advanced",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Advanced",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "AMI comms fault diagnosis",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Handheld field apps",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Working",
+     "src": "Supervisor attestation",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2021-2290",
+     "validUntil": "2026-11-30"
+    }
+   ]
+  },
+  {
+   "name": "Ahmad Fauzi",
+   "placeOfBirth": "Sidoarjo",
+   "dateOfBirth": "1988-03-30",
+   "eduLevel": "SMK",
+   "eduMajor": "Listrik",
+   "jobTitle": "Petugas Catat Meter",
+   "unit": "RU-2",
+   "startDate": "2011-09-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Working",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Advanced",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Tamper and irregularity detection",
+     "prof": "Advanced",
+     "src": "Assessor check",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Loss investigation procedure (P2TL)",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2023-1032",
+     "validUntil": "2028-06-30"
+    }
+   ]
+  },
+  {
+   "name": "Rina Marlina",
+   "placeOfBirth": "Cimahi",
+   "dateOfBirth": "1992-10-17",
+   "eduLevel": "S1",
+   "eduMajor": "Teknik Informatika",
+   "jobTitle": "Petugas Catat Meter",
+   "unit": "RU-1",
+   "startDate": "2016-01-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Working",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "GIS asset tagging",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Field data quality",
+     "prof": "Advanced",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Handheld field apps",
+     "prof": "Advanced",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Anomaly data interpretation",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2024-1120",
+     "validUntil": "2029-06-30"
+    }
+   ]
+  },
+  {
+   "name": "Hendra Gunawan",
+   "placeOfBirth": "Balikpapan",
+   "dateOfBirth": "1985-04-04",
+   "eduLevel": "SMK",
+   "eduMajor": "Listrik",
+   "jobTitle": "Pelaksana Pelayanan Teknik",
+   "unit": "RU-4",
+   "startDate": "2009-05-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Advanced",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Advanced",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "LV network maintenance",
+     "prof": "Working",
+     "src": "Supervisor attestation",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Working at height",
+     "prof": "Working",
+     "src": "BNSP certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Network switching",
+     "prof": "Foundation",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2022-0560",
+     "validUntil": "2027-05-31"
+    },
+    {
+     "type": "BNSP",
+     "name": "Bekerja di ketinggian",
+     "number": "BNSP-K3-2024-3318",
+     "validUntil": "2027-02-28"
+    }
+   ]
+  },
+  {
+   "name": "La Ode Hamzah",
+   "placeOfBirth": "Kendari",
+   "dateOfBirth": "1987-06-25",
+   "eduLevel": "SMK",
+   "eduMajor": "Listrik",
+   "jobTitle": "Petugas Catat Meter",
+   "unit": "RU-5",
+   "startDate": "2012-02-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Advanced",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Working",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "New connection installation",
+     "prof": "Working",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    },
+    {
+     "skill": "EV charger and rooftop solar inspection",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2023-1789",
+     "validUntil": "2028-03-31"
+    }
+   ]
+  },
+  {
+   "name": "Dian Purnamasari",
+   "placeOfBirth": "Solo",
+   "dateOfBirth": "1991-01-19",
+   "eduLevel": "SMA",
+   "eduMajor": "",
+   "jobTitle": "Petugas Catat Meter",
+   "unit": "RU-2",
+   "startDate": "2015-03-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Handheld field apps",
+     "prof": "Working",
+     "src": "Role prior",
+     "date": "2025-06"
+    }
+   ],
+   "certs": []
+  },
+  {
+   "name": "Fransiskus Nggadas",
+   "placeOfBirth": "Kupang",
+   "dateOfBirth": "1989-09-08",
+   "eduLevel": "SMK",
+   "eduMajor": "Listrik",
+   "jobTitle": "Juru Baca Meter",
+   "unit": "RU-6",
+   "startDate": "2014-07-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Working",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Working",
+     "src": "Role prior",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Working",
+     "src": "Self-declared",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2019-0702",
+     "validUntil": "2024-07-31"
+    }
+   ]
+  },
+  {
+   "name": "Taufik Hidayat",
+   "placeOfBirth": "Tasikmalaya",
+   "dateOfBirth": "1983-05-27",
+   "eduLevel": "SMA",
+   "eduMajor": "",
+   "jobTitle": "Petugas Catat Meter",
+   "unit": "RU-1",
+   "startDate": "2009-10-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Working",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Tamper and irregularity detection",
+     "prof": "Working",
+     "src": "Self-declared",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemasangan APP tegangan rendah",
+     "number": "SKTTK-2022-1455",
+     "validUntil": "2027-09-30"
+    }
+   ]
+  },
+  {
+   "name": "Nur Aini",
+   "placeOfBirth": "Padang",
+   "dateOfBirth": "1994-02-14",
+   "eduLevel": "SMA",
+   "eduMajor": "",
+   "jobTitle": "Petugas Catat Meter",
+   "unit": "RU-3",
+   "startDate": "2018-08-01",
+   "skills": [
+    {
+     "skill": "Meter installation and wiring",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Advanced",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Handheld field apps",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Foundation",
+     "src": "Self-declared",
+     "date": "2025-06"
+    }
+   ],
+   "certs": []
+  },
+  {
+   "name": "Maria Goreti Ina",
+   "placeOfBirth": "Manado",
+   "dateOfBirth": "1990-11-30",
+   "eduLevel": "D3",
+   "eduMajor": "Teknik Elektro",
+   "jobTitle": "Petugas Pelayanan Teknik",
+   "unit": "RU-5",
+   "startDate": "2014-01-01",
+   "skills": [
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "New connection installation",
+     "prof": "Working",
+     "src": "Supervisor attestation",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    }
+   ],
+   "certs": []
+  },
+  {
+   "name": "Joko Susilo",
+   "placeOfBirth": "Magelang",
+   "dateOfBirth": "1980-08-05",
+   "eduLevel": "SMA",
+   "eduMajor": "",
+   "jobTitle": "Juru Baca Meter",
+   "unit": "RU-2",
+   "startDate": "2006-02-01",
+   "skills": [
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Working",
+     "src": "Self-declared",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Handheld field apps",
+     "prof": "Foundation",
+     "src": "Self-declared",
+     "date": "2025-06"
+    }
+   ],
+   "certs": []
+  },
+  {
+   "name": "Ratna Sari Dewi",
+   "placeOfBirth": "Samarinda",
+   "dateOfBirth": "1993-03-22",
+   "eduLevel": "SMA",
+   "eduMajor": "",
+   "jobTitle": "Petugas Catat Meter",
+   "unit": "RU-4",
+   "startDate": "2017-05-01",
+   "skills": [
+    {
+     "skill": "Handheld field apps",
+     "prof": "Working",
+     "src": "Self-declared",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Foundation",
+     "src": "Self-declared",
+     "date": "2025-06"
+    }
+   ],
+   "certs": []
+  },
+  {
+   "name": "Hadi Kusuma",
+   "placeOfBirth": "Bogor",
+   "dateOfBirth": "1982-10-10",
+   "eduLevel": "S1",
+   "eduMajor": "Teknik Elektro",
+   "jobTitle": "Engineer Madya - Distribusi",
+   "unit": "RU-1",
+   "startDate": "2006-08-01",
+   "skills": [
+    {
+     "skill": "MV network maintenance",
+     "prof": "Advanced",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "LV network maintenance",
+     "prof": "Advanced",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Network switching",
+     "prof": "Advanced",
+     "src": "Assessor check",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Project management",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemeliharaan jaringan distribusi",
+     "number": "SKTTK-2023-3001",
+     "validUntil": "2028-08-31"
+    }
+   ]
+  },
+  {
+   "name": "Robert Situmorang",
+   "placeOfBirth": "Balige",
+   "dateOfBirth": "1980-04-18",
+   "eduLevel": "D3",
+   "eduMajor": "Teknik Listrik",
+   "jobTitle": "Senior Technician II - Jaringan",
+   "unit": "RU-3",
+   "startDate": "2003-11-01",
+   "skills": [
+    {
+     "skill": "LV network maintenance",
+     "prof": "Advanced",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Network switching",
+     "prof": "Advanced",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Working at height",
+     "prof": "Advanced",
+     "src": "BNSP certificate",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemeliharaan jaringan distribusi",
+     "number": "SKTTK-2022-2771",
+     "validUntil": "2027-12-31"
+    },
+    {
+     "type": "BNSP",
+     "name": "Bekerja di ketinggian",
+     "number": "BNSP-K3-2023-1180",
+     "validUntil": "2026-03-31"
+    }
+   ]
+  },
+  {
+   "name": "Wahyu Nugroho",
+   "placeOfBirth": "Yogyakarta",
+   "dateOfBirth": "1995-06-06",
+   "eduLevel": "SMK",
+   "eduMajor": "Listrik",
+   "jobTitle": "Teknisi Jaringan JTR",
+   "unit": "RU-2",
+   "startDate": "2019-03-01",
+   "skills": [
+    {
+     "skill": "LV network maintenance",
+     "prof": "Working",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Working at height",
+     "prof": "Working",
+     "src": "BNSP certificate",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemeliharaan jaringan distribusi",
+     "number": "SKTTK-2023-0090",
+     "validUntil": "2028-02-29"
+    },
+    {
+     "type": "BNSP",
+     "name": "Bekerja di ketinggian",
+     "number": "BNSP-K3-2024-0551",
+     "validUntil": "2027-06-30"
+    }
+   ]
+  },
+  {
+   "name": "Putu Ayu Kartika",
+   "placeOfBirth": "Denpasar",
+   "dateOfBirth": "1993-12-12",
+   "eduLevel": "D3",
+   "eduMajor": "Teknik Elektro",
+   "jobTitle": "Teknisi Jaringan JTM",
+   "unit": "RU-6",
+   "startDate": "2016-10-01",
+   "skills": [
+    {
+     "skill": "MV network maintenance",
+     "prof": "Working",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Network switching",
+     "prof": "Working",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pemeliharaan jaringan distribusi",
+     "number": "SKTTK-2024-0413",
+     "validUntil": "2029-01-31"
+    }
+   ]
+  },
+  {
+   "name": "Slamet Riyadi",
+   "placeOfBirth": "Rembang",
+   "dateOfBirth": "1987-02-02",
+   "eduLevel": "SMK",
+   "eduMajor": "Mesin",
+   "jobTitle": "Operator PLTU",
+   "unit": "RU-2",
+   "startDate": "2010-06-01",
+   "skills": [
+    {
+     "skill": "Plant operation (boiler and turbine)",
+     "prof": "Advanced",
+     "src": "Assessor check",
+     "date": "2025-06"
+    },
+    {
+     "skill": "LV electrical safety (K3)",
+     "prof": "Working",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pengoperasian pembangkit",
+     "number": "SKTTK-2022-5521",
+     "validUntil": "2027-04-30"
+    }
+   ]
+  },
+  {
+   "name": "Arief Rachman",
+   "placeOfBirth": "Palembang",
+   "dateOfBirth": "1990-07-19",
+   "eduLevel": "D3",
+   "eduMajor": "Teknik Mesin",
+   "jobTitle": "Mekanik Pembangkit",
+   "unit": "RU-3",
+   "startDate": "2013-02-01",
+   "skills": [
+    {
+     "skill": "Mechanical maintenance",
+     "prof": "Advanced",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Working at height",
+     "prof": "Working",
+     "src": "BNSP certificate",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "BNSP",
+     "name": "Bekerja di ketinggian",
+     "number": "BNSP-K3-2022-0991",
+     "validUntil": "2025-09-30"
+    }
+   ]
+  },
+  {
+   "name": "Yuliana Pasaribu",
+   "placeOfBirth": "Medan",
+   "dateOfBirth": "1985-09-25",
+   "eduLevel": "S1",
+   "eduMajor": "Teknik Fisika",
+   "jobTitle": "Supervisor Instrumen & Kontrol PLTG",
+   "unit": "RU-3",
+   "startDate": "2009-04-01",
+   "skills": [
+    {
+     "skill": "Control and instrumentation",
+     "prof": "Advanced",
+     "src": "Assessor check",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Crew leadership",
+     "prof": "Working",
+     "src": "Supervisor attestation",
+     "date": "2025-06"
+    },
+    {
+     "skill": "SCADA operation",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": []
+  },
+  {
+   "name": "Agung Wibowo",
+   "placeOfBirth": "Cirebon",
+   "dateOfBirth": "1991-03-03",
+   "eduLevel": "SMK",
+   "eduMajor": "Listrik",
+   "jobTitle": "Operator Gardu Induk",
+   "unit": "RU-1",
+   "startDate": "2014-09-01",
+   "skills": [
+    {
+     "skill": "Substation O&M",
+     "prof": "Working",
+     "src": "SKTTK certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Network switching",
+     "prof": "Working",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "SKTTK",
+     "name": "Pengoperasian gardu induk",
+     "number": "SKTTK-2023-4410",
+     "validUntil": "2028-10-31"
+    }
+   ]
+  },
+  {
+   "name": "Fajar Ramadhan",
+   "placeOfBirth": "Surabaya",
+   "dateOfBirth": "1988-12-20",
+   "eduLevel": "S1",
+   "eduMajor": "Teknik Elektro",
+   "jobTitle": "Engineer Proteksi & SCADA",
+   "unit": "RU-2",
+   "startDate": "2012-07-01",
+   "skills": [
+    {
+     "skill": "Protection relay testing",
+     "prof": "Advanced",
+     "src": "Assessor check",
+     "date": "2025-06"
+    },
+    {
+     "skill": "SCADA operation",
+     "prof": "Advanced",
+     "src": "Work orders (20 or more)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": []
+  },
+  {
+   "name": "Lia Anggraini",
+   "placeOfBirth": "Jakarta",
+   "dateOfBirth": "1996-05-15",
+   "eduLevel": "D3",
+   "eduMajor": "Administrasi Bisnis",
+   "jobTitle": "Petugas Layanan Pelanggan (Contact Center)",
+   "unit": "RU-1",
+   "startDate": "2020-01-01",
+   "skills": [
+    {
+     "skill": "Contact-centre service",
+     "prof": "Advanced",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Advanced",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    }
+   ],
+   "certs": []
+  },
+  {
+   "name": "Desi Ratnasari",
+   "placeOfBirth": "Gorontalo",
+   "dateOfBirth": "1992-08-08",
+   "eduLevel": "D3",
+   "eduMajor": "Akuntansi",
+   "jobTitle": "Staf Billing & Penagihan",
+   "unit": "RU-5",
+   "startDate": "2016-03-01",
+   "skills": [
+    {
+     "skill": "Billing operations",
+     "prof": "Advanced",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Customer interaction and de-escalation",
+     "prof": "Working",
+     "src": "Supervisor attestation",
+     "date": "2025-06"
+    }
+   ],
+   "certs": []
+  },
+  {
+   "name": "Imam Syafii",
+   "placeOfBirth": "Banjarmasin",
+   "dateOfBirth": "1986-01-28",
+   "eduLevel": "S1",
+   "eduMajor": "Teknik Sipil",
+   "jobTitle": "Engineer Proyek Konstruksi",
+   "unit": "RU-4",
+   "startDate": "2011-05-01",
+   "skills": [
+    {
+     "skill": "Project management",
+     "prof": "Advanced",
+     "src": "Assessor check",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Design engineering",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    }
+   ],
+   "certs": []
+  },
+  {
+   "name": "Sri Wahyuni",
+   "placeOfBirth": "Malang",
+   "dateOfBirth": "1989-04-09",
+   "eduLevel": "S1",
+   "eduMajor": "Akuntansi",
+   "jobTitle": "Analis Keuangan",
+   "unit": "HO",
+   "startDate": "2013-08-01",
+   "skills": [
+    {
+     "skill": "Accounting",
+     "prof": "Advanced",
+     "src": "BNSP certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Data analytics",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "BNSP",
+     "name": "Akuntansi manajemen",
+     "number": "BNSP-AK-2023-0207",
+     "validUntil": "2026-07-31"
+    }
+   ]
+  },
+  {
+   "name": "Kurniawan Saputra",
+   "placeOfBirth": "Bekasi",
+   "dateOfBirth": "1994-10-01",
+   "eduLevel": "S1",
+   "eduMajor": "Manajemen",
+   "jobTitle": "Staf Pengadaan",
+   "unit": "HO",
+   "startDate": "2018-02-01",
+   "skills": [
+    {
+     "skill": "Procurement",
+     "prof": "Working",
+     "src": "BNSP certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Inventory and warehouse",
+     "prof": "Working",
+     "src": "Supervisor attestation",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "BNSP",
+     "name": "Pengadaan barang/jasa",
+     "number": "BNSP-PBJ-2024-1302",
+     "validUntil": "2027-01-31"
+    }
+   ]
+  },
+  {
+   "name": "Mega Puspitasari",
+   "placeOfBirth": "Bandung",
+   "dateOfBirth": "1984-06-16",
+   "eduLevel": "S2",
+   "eduMajor": "Psikologi",
+   "jobTitle": "Asisten Manajer SDM",
+   "unit": "HO",
+   "startDate": "2008-09-01",
+   "skills": [
+    {
+     "skill": "HR operations",
+     "prof": "Advanced",
+     "src": "Assessor check",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Industrial relations",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    }
+   ],
+   "certs": []
+  },
+  {
+   "name": "Rizky Aditya",
+   "placeOfBirth": "Jakarta",
+   "dateOfBirth": "1995-11-11",
+   "eduLevel": "S1",
+   "eduMajor": "Ilmu Komputer",
+   "jobTitle": "Analis Data & Sistem Informasi",
+   "unit": "HO",
+   "startDate": "2019-06-01",
+   "skills": [
+    {
+     "skill": "Data analytics",
+     "prof": "Advanced",
+     "src": "Assessor check",
+     "date": "2025-06"
+    },
+    {
+     "skill": "IT operations",
+     "prof": "Working",
+     "src": "LMS course passed (2023+)",
+     "date": "2025-06"
+    }
+   ],
+   "certs": []
+  },
+  {
+   "name": "Nyoman Suarta",
+   "placeOfBirth": "Tabanan",
+   "dateOfBirth": "1983-03-19",
+   "eduLevel": "S1",
+   "eduMajor": "Teknik Lingkungan",
+   "jobTitle": "Koordinator K3 & Lingkungan",
+   "unit": "RU-6",
+   "startDate": "2008-01-01",
+   "skills": [
+    {
+     "skill": "Safety management system (K3)",
+     "prof": "Advanced",
+     "src": "BNSP certificate",
+     "date": "2025-06"
+    },
+    {
+     "skill": "Environmental compliance",
+     "prof": "Working",
+     "src": "Performance rating 2023+",
+     "date": "2025-06"
+    }
+   ],
+   "certs": [
+    {
+     "type": "BNSP",
+     "name": "Ahli K3 umum",
+     "number": "BNSP-K3U-2022-0811",
+     "validUntil": "2027-04-30"
+    }
+   ]
+  },
+  {
+   "name": "Teguh Santoso",
+   "placeOfBirth": "Purwokerto",
+   "dateOfBirth": "1979-07-07",
+   "eduLevel": "S1",
+   "eduMajor": "Hukum",
+   "jobTitle": "Staf Khusus Direksi",
+   "unit": "HO",
+   "startDate": "2005-03-01",
+   "skills": [
+    {
+     "skill": "Records and administration",
+     "prof": "Working",
+     "src": "Self-declared",
+     "date": "2025-06"
+    }
+   ],
+   "certs": []
+  }
+ ],
+ "CONNECTORS": [
+  {
+   "id": "sf",
+   "n": "SAP SuccessFactors",
+   "role": "HRIS · source of truth for identity and employment",
+   "api": "OData API",
+   "status": "api",
+   "base": "https://api-client.successfactors.example/odata/v2",
+   "auth": "OAuth 2.0 (SAML bearer)",
+   "known": "Incomplete historical data, low manager adoption",
+   "gives": [
+    "Full name",
+    "Place and date of birth",
+    "Hashed national ID (NIK) for matching",
+    "Job title",
+    "Organisational unit",
+    "Start date",
+    "Education",
+    "Photo"
+   ],
+   "map": [
+    [
+     "PerPersonal.firstName + lastName",
+     "Full name"
+    ],
+    [
+     "PerPerson.dateOfBirth",
+     "Date of birth"
+    ],
+    [
+     "PerPerson.placeOfBirth",
+     "Place of birth"
+    ],
+    [
+     "PerNationalId.nationalId",
+     "NIK, hashed on arrival, used only to match"
+    ],
+    [
+     "EmpJob.jobTitle",
+     "Job title (kept as legacy label)"
+    ],
+    [
+     "EmpJob.businessUnit",
+     "Regional unit (code mapped)"
+    ],
+    [
+     "EmpEmployment.originalStartDate",
+     "Start date"
+    ],
+    [
+     "Background_Education.degree",
+     "Education level"
+    ],
+    [
+     "User.userId",
+     "Linked ID (EMP-…)"
+    ]
+   ]
+  },
+  {
+   "id": "lms",
+   "n": "Moodle LMS",
+   "role": "Learning · completions become supported skill evidence",
+   "api": "REST web services",
+   "status": "api",
+   "base": "https://lms.client.example/webservice/rest/server.php",
+   "auth": "Web-service token",
+   "known": "Poor skill taxonomy, inconsistent course categories",
+   "gives": [
+    "Course completions, mapped to taxonomy skills",
+    "Employee number (idnumber) to link to the HRIS"
+   ],
+   "map": [
+    [
+     "core_user_get_users_by_field → idnumber",
+     "Linked HRIS ID (EMP-…)"
+    ],
+    [
+     "core_user_get_users_by_field → id",
+     "Linked ID (learner_…)"
+    ],
+    [
+     "core_enrol_get_users_courses → shortname",
+     "Course, mapped to a skill"
+    ],
+    [
+     "core_completion_get_course_completion_status",
+     "Completed and date; 2023+ only"
+    ]
+   ]
+  },
+  {
+   "id": "legacy",
+   "n": "Legacy competency and assessment system",
+   "role": "In-house · generic 5-level model",
+   "api": "No API",
+   "status": "none",
+   "known": "Generic 5-level model, not role-specific, rarely updated",
+   "note": "No API and no export endpoint. Its generic 5-level scores are not used as evidence. Re-enter only what still matters, such as certificates, through manual entry."
+  },
+  {
+   "id": "perf",
+   "n": "Regional performance tools",
+   "role": "Custom per unit · six different rating scales",
+   "api": "Mixed",
+   "status": "mixed",
+   "known": "Rating scales differ across the six units; data before 2023 unreliable",
+   "units": [
+    {
+     "u": "RU-1",
+     "api": "REST",
+     "scale": "1–5",
+     "ok": true
+    },
+    {
+     "u": "RU-2",
+     "api": "REST",
+     "scale": "0–100",
+     "ok": true
+    },
+    {
+     "u": "RU-3",
+     "api": "REST",
+     "scale": "A–E",
+     "ok": true
+    },
+    {
+     "u": "RU-4",
+     "api": "No API (file export only)",
+     "scale": "1–4",
+     "ok": false
+    },
+    {
+     "u": "RU-5",
+     "api": "REST",
+     "scale": "1–4",
+     "ok": true
+    },
+    {
+     "u": "RU-6",
+     "api": "No system (paper appraisal)",
+     "scale": "–",
+     "ok": false
+    }
+   ],
+   "map": [
+    [
+     "employee_no, name, birth_date",
+     "Matched on name + date of birth (no shared ID)"
+    ],
+    [
+     "period, score",
+     "Rating for 2023+; earlier years ignored"
+    ],
+    [
+     "score",
+     "Normalised to a z-score within unit and year"
+    ]
+   ]
+  },
+  {
+   "id": "payroll",
+   "n": "Oracle Payroll",
+   "role": "Payroll",
+   "api": "Off-limits",
+   "status": "locked",
+   "note": "Restricted under the Ministry's data-governance policy. Not connected by design; no compensation data is requested or stored."
+  }
+ ],
+ "ORG_MAP": {
+  "REG-JBR": "RU-1",
+  "REG-JTG": "RU-2",
+  "REG-JTM": "RU-2",
+  "REG-SUM": "RU-3",
+  "REG-KAL": "RU-4",
+  "REG-SUL": "RU-5",
+  "REG-BNT": "RU-6",
+  "HQ": "HO"
+ },
+ "EDU_MAP": {
+  "Senior High (SMA)": "SMA",
+  "Vocational High (SMK)": "SMK",
+  "Diploma III": "D3",
+  "Diploma IV": "D4",
+  "Bachelor (S1)": "S1",
+  "Master (S2)": "S2",
+  "Doctorate (S3)": "S3"
+ },
+ "COURSES": {
+  "LMS-K3-001": [
+   "k3_lv",
+   "K3 listrik tegangan rendah"
+  ],
+  "LMS-TMP-110": [
+   "tamper",
+   "Deteksi kelainan dan manipulasi meter"
+  ],
+  "LMS-P2TL-201": [
+   "investigation",
+   "Prosedur P2TL"
+  ],
+  "LMS-AMI-101": [
+   "ami_comms",
+   "Dasar AMI dan komunikasi meter"
+  ],
+  "LMS-HH-010": [
+   "handheld",
+   "Aplikasi handheld lapangan"
+  ],
+  "LMS-GIS-120": [
+   "gis",
+   "Penandaan aset GIS"
+  ],
+  "LMS-DQ-105": [
+   "data_quality",
+   "Kualitas data lapangan"
+  ],
+  "LMS-ANO-115": [
+   "anomaly_data",
+   "Analitik data anomali"
+  ],
+  "LMS-EV-130": [
+   "ev_solar",
+   "Inspeksi SPKLU dan PLTS atap"
+  ],
+  "LMS-SW-140": [
+   "switching",
+   "Manuver jaringan"
+  ],
+  "LMS-SCD-210": [
+   "scada",
+   "Operasi SCADA"
+  ],
+  "LMS-DA-300": [
+   "analytics",
+   "Analitik data"
+  ],
+  "LMS-IT-200": [
+   "it_ops",
+   "Operasi TI"
+  ],
+  "LMS-CS-020": [
+   "customer",
+   "Pelayanan pelanggan"
+  ]
+ },
+ "SF_NEW": [
+  [
+   "Nanang Kosasih",
+   "Garut",
+   "1985-02-11",
+   "SMK",
+   "Petugas Catat Meter",
+   "RU-1",
+   "2009-07-01"
+  ],
+  [
+   "Sutrisno",
+   "Kudus",
+   "1969-11-23",
+   "SMA",
+   "Juru Baca Meter",
+   "RU-2",
+   "1991-04-01"
+  ],
+  [
+   "Erwin Simanjuntak",
+   "Siborongborong",
+   "1990-06-30",
+   "SMK",
+   "Petugas Catat Meter",
+   "RU-3",
+   "2014-01-01"
+  ],
+  [
+   "Rahmat Hidayat",
+   "Tenggarong",
+   "1988-09-14",
+   "D3",
+   "Petugas Pelayanan Teknik",
+   "RU-4",
+   "2012-08-01"
+  ],
+  [
+   "Andi Baso Tenri",
+   "Bone",
+   "1992-04-05",
+   "SMK",
+   "Petugas Catat Meter",
+   "RU-5",
+   "2016-02-01"
+  ],
+  [
+   "Komang Adi Putra",
+   "Singaraja",
+   "1994-12-19",
+   "SMK",
+   "Petugas Catat Meter",
+   "RU-6",
+   "2018-05-01"
+  ],
+  [
+   "Wulan Sari",
+   "Karawang",
+   "1995-03-08",
+   "D3",
+   "Petugas Pelayanan Teknik",
+   "RU-1",
+   "2019-09-01"
+  ],
+  [
+   "Heru Santoso",
+   "Madiun",
+   "1983-08-27",
+   "SMA",
+   "Petugas Catat Meter",
+   "RU-2",
+   "2008-11-01"
+  ],
+  [
+   "Sri Wahyuni",
+   "Parepare",
+   "1991-10-02",
+   "D3",
+   "Staf Billing & Penagihan",
+   "RU-5",
+   "2015-06-01"
+  ],
+  [
+   "Bayu Saputra",
+   "Mojokerto",
+   "1993-01-25",
+   "SMK",
+   "Operator Gardu Induk",
+   "RU-2",
+   "2017-03-01"
+  ],
+  [
+   "Ayu Lestari",
+   "Samarinda",
+   "1996-07-07",
+   "SMK",
+   "Teknisi Jaringan JTR",
+   "RU-4",
+   "2020-02-01"
+  ],
+  [
+   "Dedi Kurniawan",
+   "Lubuklinggau",
+   "1989-05-16",
+   "D3",
+   "Mekanik Pembangkit",
+   "RU-3",
+   "2013-10-01"
+  ]
+ ],
+ "LMS_NEW": {
+  "Nanang Kosasih": [
+   [
+    "LMS-K3-001",
+    "2024-03-12"
+   ],
+   [
+    "LMS-TMP-110",
+    "2024-08-02"
+   ],
+   [
+    "LMS-HH-010",
+    "2023-05-20"
+   ],
+   [
+    "LMS-CS-020",
+    "2025-01-15"
+   ]
+  ],
+  "Erwin Simanjuntak": [
+   [
+    "LMS-K3-001",
+    "2023-09-01"
+   ],
+   [
+    "LMS-AMI-101",
+    "2025-04-10"
+   ],
+   [
+    "LMS-HH-010",
+    "2024-02-18"
+   ]
+  ],
+  "Rahmat Hidayat": [
+   [
+    "LMS-K3-001",
+    "2024-06-05"
+   ],
+   [
+    "LMS-EV-130",
+    "2025-02-27"
+   ],
+   [
+    "LMS-CS-020",
+    "2023-11-30"
+   ]
+  ],
+  "Andi Baso Tenri": [
+   [
+    "LMS-HH-010",
+    "2023-07-14"
+   ],
+   [
+    "LMS-DQ-105",
+    "2024-10-09"
+   ],
+   [
+    "LMS-GIS-120",
+    "2025-05-21"
+   ]
+  ],
+  "Komang Adi Putra": [
+   [
+    "LMS-K3-001",
+    "2022-03-01"
+   ],
+   [
+    "LMS-HH-010",
+    "2021-11-11"
+   ]
+  ],
+  "Wulan Sari": [
+   [
+    "LMS-K3-001",
+    "2024-01-22"
+   ],
+   [
+    "LMS-CS-020",
+    "2024-04-03"
+   ],
+   [
+    "LMS-EV-130",
+    "2025-03-19"
+   ]
+  ],
+  "Heru Santoso": [
+   [
+    "LMS-K3-001",
+    "2023-02-14"
+   ],
+   [
+    "LMS-TMP-110",
+    "2023-10-30"
+   ],
+   [
+    "LMS-P2TL-201",
+    "2025-06-12"
+   ]
+  ],
+  "Ayu Lestari": [
+   [
+    "LMS-SW-140",
+    "2025-01-09"
+   ]
+  ]
+ }
+}

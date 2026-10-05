@@ -1,0 +1,25 @@
+/* Design tokens: match the pitch deck (brief §10). Components use these only. */
+:root {
+  --paper: #F5F6F4;
+  --panel: #FFFFFF;
+  --ink: #13202E;
+  --muted: #5B6573;
+  --faint: #8A939E;
+  --line: #DDE1E4;
+  --line2: #ECEEF0;
+  --navy: #12305A;  --navy-t: #EAF0F7;
+  --teal: #0F766E;  --teal-t: #E4F2F0;
+  --rust: #B4441B;  --rust-t: #F8ECE6;
+  --amber: #B7791F; --amber-t: #F7EEDC;
+
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+
+  --fs-xs: 12px; --fs-sm: 13px; --fs-base: 14px; --fs-md: 16px;
+  --fs-lg: 20px; --fs-xl: 26px; --fs-2xl: 34px; --fs-hero: 56px;
+
+  --radius: 6px;
+  --sidebar: 252px;
+  --content-max: 1320px;
+  --focus: 0 0 0 2px var(--panel), 0 0 0 4px var(--navy);
+}
